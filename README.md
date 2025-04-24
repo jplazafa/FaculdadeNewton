@@ -43,17 +43,4 @@ Este projeto é uma aplicação Spring Boot com MariaDB que permite o gerenciame
 
 
 
-## 🧪 Como executar
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/<seu-usuario>/<seu-projeto>.git
-cd <seu-projeto>
-
-# 2. Configure o application.properties (edite com suas credenciais)
-printf "spring.datasource.url=jdbc:mariadb://localhost:3306/<seu-banco>\nspring.datasource.username=<usuario>\nspring.datasource.password=<senha>\n" > src/main/resources/application.properties
-
-# 3. Execute o projeto
-./mvnw spring-boot:run
-
 
