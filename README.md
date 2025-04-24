@@ -52,10 +52,12 @@ Este projeto é uma aplicação Spring Boot com MariaDB que permite o gerenciame
    cd seuprojeto
 
 2.Configure o application.properties com suas credenciais do MariaDB:
+   ```bash
 spring.datasource.url=jdbc:mariadb://localhost:3306/seubanco
 spring.datasource.username=usuario
 spring.datasource.password=senha
 
 3.Execute o projeto:
+   ```bash
 ./mvnw spring-boot:run
 
