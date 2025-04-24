@@ -30,19 +30,18 @@ Este projeto é uma aplicação Spring Boot com MariaDB que permite o gerenciame
 - `GET /alunos/{id}`: Retorna um aluno pelo ID.
 - `POST /alunos`: Cria um novo aluno.
 - `DELETE /alunos/{id}`: Remove um aluno.
+- ![image](https://github.com/user-attachments/assets/a1305a81-ef85-40c5-8402-060990656b78)
+
 
 ### Cursos (`/cursos`)
 - `GET /cursos`: Lista todos os cursos.
 - `GET /cursos/{id}`: Retorna um curso pelo ID.
 - `POST /cursos`: Cria um novo curso.
 - `DELETE /cursos/{id}`: Remove um curso.
+- ![image](https://github.com/user-attachments/assets/0c1e5679-485a-480c-8194-4b063d2218b3)
 
-## ✅ Requisitos Atendidos
 
-- Relacionamento entre entidades implementado corretamente.
-- CRUD completo funcional.
-- Uso adequado de Lombok para reduzir boilerplate.
-- Projeto segue boas práticas de organização e estrutura RESTful.
+
 
 ## 🧪 Como Executar
 
