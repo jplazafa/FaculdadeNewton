@@ -57,6 +57,7 @@ spring.datasource.url=jdbc:mariadb://localhost:3306/seubanco
 spring.datasource.username=usuario
 spring.datasource.password=senha
 
+
 3.Execute o projeto:
    ```bash
 ./mvnw spring-boot:run
