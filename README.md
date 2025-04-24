@@ -50,3 +50,12 @@ Este projeto é uma aplicação Spring Boot com MariaDB que permite o gerenciame
    ```bash
    git clone https://github.com/seuusuario/seuprojeto.git
    cd seuprojeto
+
+2.Configure o application.properties com suas credenciais do MariaDB:
+spring.datasource.url=jdbc:mariadb://localhost:3306/seubanco
+spring.datasource.username=usuario
+spring.datasource.password=senha
+
+3.Execute o projeto:
+./mvnw spring-boot:run
+
